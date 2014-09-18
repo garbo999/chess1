@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Empty Board Example</title>
+
+  <link rel="stylesheet" href="css/chessboard-0.3.0.css" />
+</head>
+<body>
+<p><a href="examples#1000">&larr; Back to all examples.</a></p>
+
+<p>ChessBoard initializes to an empty board with no second argument.
+</p>
+
+<!-- start example HTML --->
+<div id="board" style="width: 400px"></div>
+<!-- end example HTML --->
+
+<script src="http://chessboardjs.com/js/json3.min.js"></script>
+<script src="http://chessboardjs.com/js/jquery-1.10.1.min.js"></script>
+<script src="js/chessboard-0.3.0.js"></script>
+<script>
+var init = function() {
+
+//--- start example JS ---
+var board = new ChessBoard('board');
+//--- end example JS ---
+
+}; // end init()
+$(document).ready(init);
+</script>
+</body>
+</html>
